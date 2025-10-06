@@ -1,2 +1,14 @@
-# resume_keyword_matcher
-This project is a simple resume keyword matcher, during job search we create N numbers of resume, tailoring it as per the job description but some job descriptions have same keywords and we may not be aware of the keywords that are mentioned in each of the resume. So for this I created a simple python code that helps you check match the keywords
+# Resume Keyword Matcher
+
+A simple Python utility to check how well your resume matches the keywords in a job description. Useful when tailoring multiple resumes for different roles to ensure you include all relevant keywords.
+
+## Features
+- Compare resume content with job description keywords
+- Generate a match score and highlight missing keywords
+- Helps optimize resumes for Applicant Tracking Systems (ATS)
+
+## Installation
+```bash
+git clone https://github.com/yourusername/resume-keyword-matcher.git
+cd resume-keyword-matcher
+pip install -r requirements.txt
